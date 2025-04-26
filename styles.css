@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+
+  line-height: 1;
+  font-weight: 400;
+  font-size: 62.5%;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 48px;
+  font-size: 1.6rem;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 12px;
+  gap: 4px;
+  border-radius: 8px;
+  align-self: start;
+  color: oklch(41.2% 0.089 280);
+  color: oklch(30.9% 0.016 280);
+  /* justify-content: center; */
+
+  & div {
+    align-content: center;
+  }
+
+  &:hover {
+    font-weight: bold;
+    background-color: oklch(98.8% 0.004 280);
+  }
+}
+
+a {
+    color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.soon {
+  background-color: red;
+  background-color: oklch(91.4% 0.042 140);
+  color: oklch(41.2% 0.089 140);
+  border-radius: 2px;
+  padding: 4px;
+  margin-left: 8px;
+  font-weight: 400;
+}
